@@ -28,7 +28,7 @@
 
         <!-- Tells Android 11 to never kill your music in the background -->
         <service
-            android:name=".AurevoPlaybackService"
+            android:name=".SudhanshPlaybackService"
             android:exported="false"
             android:foregroundServiceType="mediaPlayback">
             <intent-filter>
